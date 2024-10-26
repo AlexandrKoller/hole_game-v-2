@@ -1,0 +1,31 @@
+.card {
+  width: 800px;
+  margin-bottom: 0;
+}
+
+.hole-game {
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+.hole {
+  width: 150px;
+  height: 150px;
+  margin: 0 15px 20px;
+  background: gray;
+  border-radius: 50%;
+}
+
+.goblin {
+  width: 150px;
+  height: 150px;
+  margin: center;
+  border-radius: 50%;
+  background-size: contain;
+  background-color: brown;
+}
