@@ -23,13 +23,12 @@ export default class Counter {
         }
     }
     timeSet() {
-        this.timer = setTimeout(() => {
+        this.timer = setInterval(() => {
             this.game.moveGoblin()
-            this.timeSet()
             this.lost()}, 1000)
         
     }
     clearTime() {
-        clearTimeout(this.timer)
+        clearInterval(this.timer)
     }
 }
