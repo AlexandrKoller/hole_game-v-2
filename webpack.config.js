@@ -39,7 +39,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebPackPlugin({
-      template: './src/task.html',
+      template: './index.html',
       filename: './index.html',
     })
   ],
